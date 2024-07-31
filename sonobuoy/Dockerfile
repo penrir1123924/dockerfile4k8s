@@ -1,2 +1,2 @@
- FROM gcr.io/heptio-images/sonobuoy:v0.13.0  
+ FROM piasy/apprtc-server  
  MAINTAINER 532232268@qq.com

@@ -1,2 +1,2 @@
- FROM mpromonet/webrtc-streamer  
+ FROM node:16  
  MAINTAINER 532232268@qq.com

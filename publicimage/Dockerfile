@@ -1,2 +1,2 @@
- FROM mysql:5.7
+ FROM mysql:5.7.32
  MAINTAINER 532232268@qq.com

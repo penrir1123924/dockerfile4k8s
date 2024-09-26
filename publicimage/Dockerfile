@@ -1,2 +1,2 @@
- FROM dlandon/zoneminder.machine.learning
+ FROM mysql:5.7
  MAINTAINER 532232268@qq.com

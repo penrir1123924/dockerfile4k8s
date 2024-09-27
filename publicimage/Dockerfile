@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     procps \
     && rm -rf /var/lib/apt/lists/*  # Clean up to reduce image size
 
-RUN git clone --branch $SHINOBI_BRANCH https://gitlab.com/Shinobi-Systems/Shinobi.git /opt/shinobi
+RUN git clone --branch dev https://gitlab.com/Shinobi-Systems/Shinobi.git /opt/shinobi
 
 WORKDIR /opt/shinobi
 RUN npm install -g npm@latest

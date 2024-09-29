@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##############
-until mysql -h "$DB_HOST" -u "$DB_USER" -p"$DB_PASSWORD" -e "SELECT 1"; do
+until mysql -h "$DB_HOST" -u "$DB_USER" -p"$DB_PASSWORD" -P"$DB_PORT" -e "SELECT 1"; do
   >&2 echo "MySQL is currently unavailable - retrying..."
   sleep 1
 done
@@ -28,7 +28,7 @@ DB_CONFIG=$(cat <<EOF
     "user": "${DB_USER}",
     "password": "${DB_PASSWORD}",
     "database": "${DB_DATABASE}",
-    "port": 3306
+    "port": "${DB_PORT}"
 }
 EOF
 )

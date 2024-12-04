@@ -1,2 +1,2 @@
-FROM solsson/kafka-prometheus-jmx-exporter:1.0.1
+FROM solsson/kafka-prometheus-jmx-exporter
 MAINTAINER 532232268@qq.com

@@ -1,2 +1,2 @@
-FROM confluentinc/cp-enterprise-kafka:7.5.7
+FROM solsson/kafka-prometheus-jmx-exporter:1.0.1
 MAINTAINER 532232268@qq.com

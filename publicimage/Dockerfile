@@ -1,2 +1,2 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.1
+FROM jenkins/jenkins:lts
 MAINTAINER 532232268@qq.com

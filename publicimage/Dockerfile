@@ -1,2 +1,2 @@
-FROM apache/rocketmq:5.3.1
+FROM apache/rocketmq:4.9.6
 MAINTAINER 532232268@qq.com

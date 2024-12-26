@@ -1,2 +1,2 @@
-FROM styletang/rocketmq-console-ng:latest
+FROM apacherocketmq/rocketmq-dashboard:latest
 MAINTAINER 532232268@qq.com

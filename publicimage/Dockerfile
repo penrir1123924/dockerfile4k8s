@@ -1,2 +1,2 @@
-FROM apachepulsar/pulsar:2.9.5
+FROM apachepulsar/pulsar-manager
 MAINTAINER 532232268@qq.com

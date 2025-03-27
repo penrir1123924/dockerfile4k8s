@@ -1,2 +1,2 @@
-FROM milvusdb/heaptrack:v0.1.0
+FROM zilliz/attu:v2.5.3
 MAINTAINER 532232268@qq.com

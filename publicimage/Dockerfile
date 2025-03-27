@@ -1,2 +1,2 @@
-FROM ghcr.io/huggingface/text-embeddings-inference:cpu-1.6
+FROM apachepulsar/pulsar-manager:v0.1.0
 MAINTAINER 532232268@qq.com

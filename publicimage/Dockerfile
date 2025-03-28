@@ -1,2 +1,2 @@
-FROM apachepulsar/pulsar-manager:v0.1.0
+FROM minio/minio:RELEASE.2023-03-20T20-16-18Z
 MAINTAINER 532232268@qq.com

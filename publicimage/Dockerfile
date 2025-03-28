@@ -1,2 +1,2 @@
-FROM minio/minio:RELEASE.2023-03-20T20-16-18Z
+FROM milvusdb/milvus:v2.5.6
 MAINTAINER 532232268@qq.com
